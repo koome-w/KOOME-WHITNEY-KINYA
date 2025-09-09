@@ -13,7 +13,7 @@ import {
   FaGlobe,
   FaPaperPlane,
   FaUser,
-  FaMessage,
+  FaComment,
   FaClock,
   FaCheckCircle,
   FaCode,
@@ -309,7 +309,7 @@ const ContactSection = () => {
                   
                   <div>
                     <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-                      <FaMessage className="inline mr-2" />
+                      <FaComment className="inline mr-2" />
                       Message
                     </label>
                     <textarea
